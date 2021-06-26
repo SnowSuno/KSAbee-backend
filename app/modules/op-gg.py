@@ -46,8 +46,9 @@ def get_user_info(user_name):
         raise Exception('fetch fail')
 
 
+# test code
 if __name__ == '__main__':
     from pprint import pprint
-    pprint(get_user_info('침대에서 뒹굴'))
-    pprint(get_user_info('마리마리착마리'))
-    pprint(get_user_info('qwerqwefdsad'))
+    pprint(get_user_info('침대에서뒹굴'))     # Unranked user
+    pprint(get_user_info('마리마리착마리'))   # Ranked user
+    pprint(get_user_info('qwerqwefdsad'))  # Unexisting user
