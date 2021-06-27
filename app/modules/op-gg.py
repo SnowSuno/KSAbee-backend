@@ -8,6 +8,7 @@ def get_user_info(user_name):
     user_data = {
         'nickname': '',
         'profileImage': '',
+        'level': 0,
         'tier': '',
         'tierInfo': {
             'leaguePoints': 0,
@@ -28,7 +29,7 @@ def get_user_info(user_name):
 
         user_data['nickname'] = soup.select_one('.Profile>.Information>.Name').text
         user_data['profileImage'] = "https:" + soup.select_one('.ProfileImage')['src']
-
+        user_data['level'] = int(soup.select_one('.Level').text)
 
         tier = soup.select_one('.TierRank').text.strip()
         user_data['tier'] = tier
