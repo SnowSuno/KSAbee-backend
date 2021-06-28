@@ -3,10 +3,30 @@
 from typing import Optional
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+from fastapi.middleware.cors import CORSMiddleware
 
+app = FastAPI()
+
+origins = [
+    'http://ksabee.netlify.app',
+    'https://ksabee.netlify.app',
+    'http://localhost',
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'http://localhost:3002',
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*']
+)
 
 dummy_data = [
     {
