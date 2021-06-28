@@ -7,29 +7,10 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-# DUMMY_DB = [
-#     {
-#         'studentId': '19-006',
-#         'name': '권순호',
-#     },
-#     {
-#         'studentId': '19-079',
-#         'name': '이지원',
-#         'data': {
-#             'nickname': '마리마리 착마리',
-#             'summonerId': '',
-#             'tier': 'Bronze 1',
-#
-#         }
-#     },  # Registerd students
-#     {
-#         'studentId': '19-000',
-#         'name': '홍길동',
-#     }  # Unregistered student
-# ]
 
 dummy_data = [
     {
+        'index': 1,
         'studentID': "19-079",
         'studentName': "이지원",
         'nickName': "마리마리착마리",
@@ -45,12 +26,13 @@ dummy_data = [
         }
     },
     {
+        'index': 0,
         'studentID': "19-006",
         'studentName': "권순호",
         'nickName': "침대에서 뒹굴",
         'level': 50,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
-        'position': 'mid',
+        'position': 'adc',
         'tier': "Challenger",
         'tierInfo': {
             'leaguePoints': 99,
@@ -58,7 +40,55 @@ dummy_data = [
             'losses': 100,
             'winRate': 50
         }
-    }
+    },
+    {
+        'index': 2,
+        'studentID': "19-001",
+        'studentName': "강라엘",
+        'nickName': "리듬타지마",
+        'level': 50,
+        'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
+        'position': 'mid',
+        'tier': "Unranked",
+        'tierInfo': {
+            'leaguePoints': 0,
+            'wins': 0,
+            'losses': 0,
+            'winRate': 0
+        }
+    },
+    {
+        'index': 3,
+        'studentID': "20-001",
+        'studentName': "누군가",
+        'nickName': "나롤개잘함",
+        'level': 50,
+        'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
+        'position': 'mid',
+        'tier': "Iron 4",
+        'tierInfo': {
+            'leaguePoints': 2,
+            'wins': 0,
+            'losses': 10,
+            'winRate': 0
+        }
+    },
+    {
+        'index': 4,
+        'studentID': "21-001",
+        'studentName': "누군가",
+        'nickName': "동명이인 테스트",
+        'level': 50,
+        'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
+        'position': 'mid',
+        'tier': "Iron 4",
+        'tierInfo': {
+            'leaguePoints': 2,
+            'wins': 0,
+            'losses': 9,
+            'winRate': 0
+        }
+    },
 ]
 
 
