@@ -52,7 +52,7 @@ dummy_data = [
         'nickName': "침대에서 뒹굴",
         'level': 50,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
-        'position': 'adc',
+        'position': 'bottom',
         'tier': "Challenger",
         'tierInfo': {
             'leaguePoints': 99,
@@ -84,7 +84,7 @@ dummy_data = [
         'nickName': "나롤개잘함",
         'level': 50,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
-        'position': 'mid',
+        'position': 'jungle',
         'tier': "Iron 4",
         'tierInfo': {
             'leaguePoints': 2,
@@ -100,7 +100,7 @@ dummy_data = [
         'nickName': "동명이인 테스트",
         'level': 50,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
-        'position': 'mid',
+        'position': 'support',
         'tier': "Iron 4",
         'tierInfo': {
             'leaguePoints': 2,
