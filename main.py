@@ -50,8 +50,8 @@ dummy_data = [
         'studentID': "19-006",
         'studentName': "권순호",
         'nickName': "침대에서 뒹굴",
-        'level': 50,
-        'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
+        'level': 58,
+        'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon1394.jpg?image=q_auto:best&v=1518361200',
         'position': 'bottom',
         'tier': "Challenger",
         'tierInfo': {
@@ -66,7 +66,7 @@ dummy_data = [
         'studentID': "19-001",
         'studentName': "강라엘",
         'nickName': "리듬타지마",
-        'level': 50,
+        'level': 40,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
         'position': 'mid',
         'tier': "Unranked",
@@ -82,31 +82,31 @@ dummy_data = [
         'studentID': "20-001",
         'studentName': "누군가",
         'nickName': "나롤개잘함",
-        'level': 50,
+        'level': 60,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
         'position': 'jungle',
-        'tier': "Iron 4",
+        'tier': "Gold 4",
         'tierInfo': {
-            'leaguePoints': 2,
-            'wins': 0,
-            'losses': 10,
-            'winRate': 0
+            'leaguePoints': 40,
+            'wins': 10,
+            'losses': 0,
+            'winRate': 100
         }
     },
     {
         'index': 4,
-        'studentID': "21-001",
+        'studentID': "20-002",
         'studentName': "누군가",
         'nickName': "동명이인 테스트",
-        'level': 50,
+        'level': 100,
         'profileImg': 'https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto:best&v=1518361200',
-        'position': 'support',
-        'tier': "Iron 4",
+        'position': 'mid',
+        'tier': "Silver 3",
         'tierInfo': {
-            'leaguePoints': 2,
-            'wins': 0,
-            'losses': 9,
-            'winRate': 0
+            'leaguePoints': 20,
+            'wins': 5,
+            'losses': 10,
+            'winRate': 33
         }
     },
 ]
